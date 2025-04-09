@@ -38,9 +38,9 @@ python polymorphism_design.py
 - ✅ Three display modes (animals/vehicles/interactive)
 
 **Common Requirements Met:**
-.✔️ Clean class hierarchies
-.✔️ Interactive user input
-.✔️ Demonstrates OOP pillars (Encapsulation, Inheritance, Polymorphism)
-.✔️ Playful implementation with technical rigor
+- ✔️ Clean class hierarchies
+- ✔️ Interactive user input
+- ✔️ Demonstrates OOP pillars (Encapsulation, Inheritance, Polymorphism)
+- ✔️ Playful implementation with technical rigor
 
 Note: Both programs use Python 3.8+ and require no external dependencies.
