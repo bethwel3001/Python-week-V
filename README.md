@@ -20,7 +20,7 @@ python class_design.py
 
 
 ## Assignment 2: Polymorphism Zoo & Vehicles 🐾🚗
-Concepts Demonstrated:
+**Concepts Demonstrated:**
 
 - Polymorphism through move() method
 - Abstract base classes
