@@ -1,6 +1,7 @@
 import time
 from random import choice
 
+# ----------------------------Animal class START -----------------------------
 class Animal:
     def __init__(self, name):
         self.name = name
@@ -13,24 +14,28 @@ class Animal:
 
 class Cheetah(Animal):
     def move(self):
-        return f"{self.name} the Cheetah sprints at 70 mph! 🏃💨"
+        return f"{self.name}, the Cheetah sprints at 70 mph! 🏃💨"
     
     def speak(self):
         return "Purrr-chirp! (Yes, cheetahs chirp like birds!) 🐆"
 
 class Penguin(Animal):
     def move(self):
-        return f"{self.name} the Penguin waddles cutely! 🐧"
+        return f"{self.name}, the Penguin waddles cutely! 🐧"
     
     def speak(self):
         return "Noot noot! 🎺"
 
 class Dolphin(Animal):
     def move(self):
-        return f"{self.name} the Dolphin swims with graceful flips! 🐬"
+        return f"{self.name}, the Dolphin swims with graceful flips! 🐬"
     
     def speak(self):
         return "Eee-eee-click! (Dolphin sonar sounds) 📡"
+
+# ----------------------------Animal class END -----------------------------
+
+# ----------------------------Vehicle class STT -----------------------------
 
 class Vehicle:
     def __init__(self, model):
@@ -44,31 +49,34 @@ class Vehicle:
 
 class RaceCar(Vehicle):
     def move(self):
-        return f"{self.model} zooms past with a VROOM! 🏎️💨"
+        return f"{self.model}, zooms past with a VROOM! 🏎️💨"
     
     def honk(self):
         return "Beep-beep! (But more like a Formula 1 horn) 🏁"
 
 class HotAirBalloon(Vehicle):
     def move(self):
-        return f"{self.model} floats gently with the wind 🎈"
+        return f"{self.model}, floats gently with the wind 🎈"
     
     def honk(self):
         return "... (silence, because balloons don't have horns) 🤫"
 
 class MonsterTruck(Vehicle):
     def move(self):
-        return f"{self.model} CRUSHES everything in its path! 🚚💥"
+        return f"{self.model}, CRUSHES everything in its path! 🚚💥"
     
     def honk(self):
         return "HONK HOOOONK! (Airhorn blast) 📢"
+# ----------------------------Vehicle class END -----------------------------
 
+# ----------------------------Text write animation -----------------------------
 def animate_text(text):
     for char in text:
         print(char, end='', flush=True)
         time.sleep(0.03)
     print()
 
+# -----------main class----------------
 def main():
     print("🌟" * 25)
     animate_text("Welcome to the Polymorphism Zoo & Vehicle Showcase!")
